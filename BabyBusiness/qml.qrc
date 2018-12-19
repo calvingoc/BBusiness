@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Meme_Sunglasses.png</file>
+        <file>p8q4wmdl.png</file>
+        <file>dad.png</file>
+        <file>rad.png</file>
+        <file>baby.png</file>
+        <file>mark.png</file>
+        <file>mom.png</file>
+    </qresource>
+</RCC>

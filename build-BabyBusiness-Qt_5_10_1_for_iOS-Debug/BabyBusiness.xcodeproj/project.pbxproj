@@ -1,0 +1,1304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		5E618435888B9D49F8540165 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Qmake";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/appdev/Perforce/cgehred_Applications-iMac_cgehredo_Dev_4375/build-BabyBusiness-Qt_5_10_1_for_iOS-Debug/ -f BabyBusiness.xcodeproj/qt_makeqmake.mak";
+			showEnvVarsInLog = "0";
+		};
+		745B14B20F3A095AFDCE58A8 = {
+			isa = PBXFileReference;
+			path = "/Users/appdev/Perforce/cgehred_Applications-iMac_cgehredo_Dev_4375/BabyBusiness/main.cpp";
+			name = "main.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		34DD23D04B8609F967BA6125 = {
+			fileRef = "745B14B20F3A095AFDCE58A8";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		DBF2264AA02061ABAC0CAB7B = {
+			isa = PBXFileReference;
+			path = "/Users/appdev/Perforce/cgehred_Applications-iMac_cgehredo_Dev_4375/BabyBusiness/settings.cpp";
+			name = "settings.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D10E98DF9D4BE16F905F7A5E = {
+			fileRef = "DBF2264AA02061ABAC0CAB7B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1C6F7F5F2345884215D6DDFE = {
+			isa = PBXFileReference;
+			path = "/Users/appdev/Perforce/cgehred_Applications-iMac_cgehredo_Dev_4375/build-BabyBusiness-Qt_5_10_1_for_iOS-Debug/babybusiness_plugin_import.cpp";
+			name = "babybusiness_plugin_import.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4701B8F506BF6D310062B47F = {
+			fileRef = "1C6F7F5F2345884215D6DDFE";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6C5220A12528333D76BDE8B3 = {
+			isa = PBXFileReference;
+			path = "/Users/appdev/Perforce/cgehred_Applications-iMac_cgehredo_Dev_4375/build-BabyBusiness-Qt_5_10_1_for_iOS-Debug/babybusiness_qml_plugin_import.cpp";
+			name = "babybusiness_qml_plugin_import.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C3A52EB0CD22084A595F2217 = {
+			fileRef = "6C5220A12528333D76BDE8B3";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D37AF756074DE10061E8BCF7 = {
+			isa = PBXFileReference;
+			path = "/Users/appdev/Perforce/cgehred_Applications-iMac_cgehredo_Dev_4375/build-BabyBusiness-Qt_5_10_1_for_iOS-Debug/qrc_qml.cpp";
+			name = "qrc_qml.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A280089134D60A376492703E = {
+			fileRef = "D37AF756074DE10061E8BCF7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B31EC5D26A56BE6594E0F680 = {
+			isa = PBXFileReference;
+			path = "/Users/appdev/Perforce/cgehred_Applications-iMac_cgehredo_Dev_4375/build-BabyBusiness-Qt_5_10_1_for_iOS-Debug/moc_settings.cpp";
+			name = "moc_settings.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E266D145C7F34D1AF6FDBA2A = {
+			fileRef = "B31EC5D26A56BE6594E0F680";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3B2B363B7D4A263051C6BE96 = {
+			isa = PBXFileReference;
+			path = "/Users/appdev/Perforce/cgehred_Applications-iMac_cgehredo_Dev_4375/BabyBusiness/settings.h";
+			name = "settings.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		94F769E3B954D6BE53B1AA18 = {
+			isa = PBXFileReference;
+			path = "/Users/appdev/Perforce/cgehred_Applications-iMac_cgehredo_Dev_4375/BabyBusiness/qml.qrc";
+			name = "qml.qrc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		4B4391EBFC17F5FEDE5439AC = {
+			fileRef = "94F769E3B954D6BE53B1AA18";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B626C70F0BDE893FDFBE1729 = {
+			isa = PBXFileReference;
+			path = "/Users/appdev/Perforce/cgehred_Applications-iMac_cgehredo_Dev_4375/build-BabyBusiness-Qt_5_10_1_for_iOS-Debug/BabyBusiness.pro";
+			name = "BabyBusiness.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		5BAEE60E0A777D894DEED7CE = {
+			isa = PBXFileReference;
+			path = "/Users/appdev/Perforce/cgehred_Applications-iMac_cgehredo_Dev_4375/build-BabyBusiness-Qt_5_10_1_for_iOS-Debug/.qmake.stash";
+			name = ".qmake.stash";
+			sourceTree = "<absolute>";
+		};
+		1BACD06BE0AC54D330ED155A = {
+			isa = PBXFileReference;
+			path = "/Users/appdev/Perforce/cgehred_Applications-iMac_cgehredo_Dev_4375/BabyBusiness/BabyBusiness.pro";
+			name = "BabyBusiness.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		25B08E2869634E9BCBA333A2 = {
+			isa = PBXGroup;
+			children = (
+				"1C6F7F5F2345884215D6DDFE",
+				"6C5220A12528333D76BDE8B3",
+				"D37AF756074DE10061E8BCF7",
+				"B31EC5D26A56BE6594E0F680");
+			name = "Generated Sources";
+			sourceTree = "<group>";
+		};
+		87DF60DE337FB58864343E39 = {
+			isa = PBXGroup;
+			children = (
+				"94F769E3B954D6BE53B1AA18");
+			name = "Resources";
+			sourceTree = "<group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 = {
+			isa = PBXGroup;
+			children = (
+				"745B14B20F3A095AFDCE58A8",
+				"DBF2264AA02061ABAC0CAB7B",
+				"3B2B363B7D4A263051C6BE96");
+			name = "Sources";
+			sourceTree = "<group>";
+		};
+		74B182DB50CB5611B5C1C297 = {
+			isa = PBXGroup;
+			children = (
+				"B626C70F0BDE893FDFBE1729",
+				"5BAEE60E0A777D894DEED7CE",
+				"1BACD06BE0AC54D330ED155A");
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EF0942E79C014DCEC8976BC = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Preprocessors";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/appdev/Perforce/cgehred_Applications-iMac_cgehredo_Dev_4375/build-BabyBusiness-Qt_5_10_1_for_iOS-Debug/ -f BabyBusiness.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = "0";
+		};
+		F7E50F631C51CD5B5DC0BC43 = {
+			buildActionMask = 2147483647;
+			files = (
+				"34DD23D04B8609F967BA6125",
+				"D10E98DF9D4BE16F905F7A5E",
+				"4701B8F506BF6D310062B47F",
+				"C3A52EB0CD22084A595F2217",
+				"A280089134D60A376492703E",
+				"E266D145C7F34D1AF6FDBA2A");
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Compile Sources";
+		};
+		FCC237CA5AD60B9BA4447615 = {
+			isa = PBXFileReference;
+			name = "Foundation.framework";
+			path = "/System/Library/Frameworks/Foundation.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F26454630C80841CBDCFE1CA = {
+			fileRef = "FCC237CA5AD60B9BA4447615";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7EC00404ACD5AB0E97726B0E = {
+			isa = PBXFileReference;
+			name = "QuartzCore.framework";
+			path = "/System/Library/Frameworks/QuartzCore.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		B460F624007324313696BE86 = {
+			fileRef = "7EC00404ACD5AB0E97726B0E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C44131FDCFEF4396B9EA2BA = {
+			isa = PBXFileReference;
+			name = "AudioToolbox.framework";
+			path = "/System/Library/Frameworks/AudioToolbox.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		4EB68D0C8182BCE33529C421 = {
+			fileRef = "3C44131FDCFEF4396B9EA2BA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4D765E1B1EA6C757220C63E7 = {
+			isa = PBXFileReference;
+			name = "CoreFoundation.framework";
+			path = "/System/Library/Frameworks/CoreFoundation.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F8B465CE34D8DF87AAE95913 = {
+			fileRef = "4D765E1B1EA6C757220C63E7";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6AE3EC31EE5BB1FCEE84137C = {
+			isa = PBXFileReference;
+			name = "CoreGraphics.framework";
+			path = "/System/Library/Frameworks/CoreGraphics.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		0CE02722F00CAD43741297B5 = {
+			fileRef = "6AE3EC31EE5BB1FCEE84137C";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7D7B02101166B76FD2D4F8B4 = {
+			isa = PBXFileReference;
+			name = "CoreText.framework";
+			path = "/System/Library/Frameworks/CoreText.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		2B02D9DC58A01E45248DDBCE = {
+			fileRef = "7D7B02101166B76FD2D4F8B4";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3A8EF9C62A8D4790CBB89CEA = {
+			isa = PBXFileReference;
+			name = "ImageIO.framework";
+			path = "/System/Library/Frameworks/ImageIO.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		61EEC397DC8556BF8C4E36A7 = {
+			fileRef = "3A8EF9C62A8D4790CBB89CEA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		38570CF40A90A306584CE249 = {
+			isa = PBXFileReference;
+			name = "qios";
+			path = "/Users/appdev/Qt/5.10.1/ios/plugins/platforms/libqios$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B3BF103B2D2E7CB8B6224D77 = {
+			fileRef = "38570CF40A90A306584CE249";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BAF3364AE54C838181B0F8D5 = {
+			isa = PBXFileReference;
+			name = "Qt5FontDatabaseSupport";
+			path = "/Users/appdev/Qt/5.10.1/ios/lib/libQt5FontDatabaseSupport$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F603F4E7F8681F307B9A41C8 = {
+			fileRef = "BAF3364AE54C838181B0F8D5";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		72C9D15566F1A81B2425256B = {
+			isa = PBXFileReference;
+			name = "qtfreetype";
+			path = "/Users/appdev/Qt/5.10.1/ios/lib/libqtfreetype$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		C4579F2EC185D0151B059E76 = {
+			fileRef = "72C9D15566F1A81B2425256B";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		85B31DB720473DBA0657CD86 = {
+			isa = PBXFileReference;
+			name = "Qt5GraphicsSupport";
+			path = "/Users/appdev/Qt/5.10.1/ios/lib/libQt5GraphicsSupport$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		9D7C840C4E67D14050BCACC9 = {
+			fileRef = "85B31DB720473DBA0657CD86";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		88B1FC1B5A692969C2481CD5 = {
+			isa = PBXFileReference;
+			name = "Qt5ClipboardSupport";
+			path = "/Users/appdev/Qt/5.10.1/ios/lib/libQt5ClipboardSupport$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		244297D76782116F979C4587 = {
+			fileRef = "88B1FC1B5A692969C2481CD5";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5C8D2A717F4866341597018 = {
+			isa = PBXFileReference;
+			name = "qgif";
+			path = "/Users/appdev/Qt/5.10.1/ios/plugins/imageformats/libqgif$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		9CDAF59DD24F819AB910A225 = {
+			fileRef = "F5C8D2A717F4866341597018";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		66E6253D9FFE621474110A17 = {
+			isa = PBXFileReference;
+			name = "qicns";
+			path = "/Users/appdev/Qt/5.10.1/ios/plugins/imageformats/libqicns$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		62F8277249E4AE6355F3F21B = {
+			fileRef = "66E6253D9FFE621474110A17";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		E73B37B48A46F81CFED156C7 = {
+			isa = PBXFileReference;
+			name = "qico";
+			path = "/Users/appdev/Qt/5.10.1/ios/plugins/imageformats/libqico$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		09F10F5CB1FF797C835CE4DB = {
+			fileRef = "E73B37B48A46F81CFED156C7";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C67FD872EF6AA3DA59F0FDC = {
+			isa = PBXFileReference;
+			name = "qjpeg";
+			path = "/Users/appdev/Qt/5.10.1/ios/plugins/imageformats/libqjpeg$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		A5A12D7AC509883DB5714D7B = {
+			fileRef = "3C67FD872EF6AA3DA59F0FDC";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		18B07186EFCFF46C4AC8C055 = {
+			isa = PBXFileReference;
+			name = "qmacjp2";
+			path = "/Users/appdev/Qt/5.10.1/ios/plugins/imageformats/libqmacjp2$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		A31CB6DF224BBACD45C844D2 = {
+			fileRef = "18B07186EFCFF46C4AC8C055";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9236A66C6813326867488232 = {
+			isa = PBXFileReference;
+			name = "qtga";
+			path = "/Users/appdev/Qt/5.10.1/ios/plugins/imageformats/libqtga$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		274183AF5D037AED9812C6BA = {
+			fileRef = "9236A66C6813326867488232";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C58A577B75FA948870541063 = {
+			isa = PBXFileReference;
+			name = "qtiff";
+			path = "/Users/appdev/Qt/5.10.1/ios/plugins/imageformats/libqtiff$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		E407866FE6839A787E8C00F5 = {
+			fileRef = "C58A577B75FA948870541063";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C8C0CABA8FF844F43F4F3E25 = {
+			isa = PBXFileReference;
+			name = "qwbmp";
+			path = "/Users/appdev/Qt/5.10.1/ios/plugins/imageformats/libqwbmp$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		00104A3BAA9845C161DF1034 = {
+			fileRef = "C8C0CABA8FF844F43F4F3E25";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C236E8CC9E55444B6BA95E42 = {
+			isa = PBXFileReference;
+			name = "qwebp";
+			path = "/Users/appdev/Qt/5.10.1/ios/plugins/imageformats/libqwebp$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		BB4E4F9937D24839948EE40D = {
+			fileRef = "C236E8CC9E55444B6BA95E42";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9700DE8CF62019BFE61DC842 = {
+			isa = PBXFileReference;
+			name = "qmldbg_debugger";
+			path = "/Users/appdev/Qt/5.10.1/ios/plugins/qmltooling/libqmldbg_debugger$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		027BA5E7E9ADA5488690C0D7 = {
+			fileRef = "9700DE8CF62019BFE61DC842";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		205259EEEE2BADA5E64741E3 = {
+			isa = PBXFileReference;
+			name = "Security.framework";
+			path = "/System/Library/Frameworks/Security.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		15364689D2AB5A30E87A689F = {
+			fileRef = "205259EEEE2BADA5E64741E3";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		74834A37078750EAE21469C1 = {
+			isa = PBXFileReference;
+			name = "qmldbg_inspector";
+			path = "/Users/appdev/Qt/5.10.1/ios/plugins/qmltooling/libqmldbg_inspector$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		BCD91DCFF0327CC2E7321EE7 = {
+			fileRef = "74834A37078750EAE21469C1";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BD2AF2F66D84E4DD324EF254 = {
+			isa = PBXFileReference;
+			name = "qmldbg_local";
+			path = "/Users/appdev/Qt/5.10.1/ios/plugins/qmltooling/libqmldbg_local$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		509F8F5DA1619D4B633821FB = {
+			fileRef = "BD2AF2F66D84E4DD324EF254";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0E0AB8B7646850BF3D009179 = {
+			isa = PBXFileReference;
+			name = "qmldbg_messages";
+			path = "/Users/appdev/Qt/5.10.1/ios/plugins/qmltooling/libqmldbg_messages$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		9D53C01E5650599F7EB4C3B3 = {
+			fileRef = "0E0AB8B7646850BF3D009179";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		40DF2EEA80C7624C9CA16470 = {
+			isa = PBXFileReference;
+			name = "qmldbg_native";
+			path = "/Users/appdev/Qt/5.10.1/ios/plugins/qmltooling/libqmldbg_native$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B8BF709930A21551E7F3D6D6 = {
+			fileRef = "40DF2EEA80C7624C9CA16470";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FB35A96C4C3567DDD398D4E6 = {
+			isa = PBXFileReference;
+			name = "qmldbg_nativedebugger";
+			path = "/Users/appdev/Qt/5.10.1/ios/plugins/qmltooling/libqmldbg_nativedebugger$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		6E29E98A5A025CA8337CE378 = {
+			fileRef = "FB35A96C4C3567DDD398D4E6";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B58E8A8B71E018585BDFE76B = {
+			isa = PBXFileReference;
+			name = "qmldbg_profiler";
+			path = "/Users/appdev/Qt/5.10.1/ios/plugins/qmltooling/libqmldbg_profiler$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		9317CFED0F7F07766F90A993 = {
+			fileRef = "B58E8A8B71E018585BDFE76B";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		141B9EC7F0FDA475AA79E6AD = {
+			isa = PBXFileReference;
+			name = "qmldbg_quickprofiler";
+			path = "/Users/appdev/Qt/5.10.1/ios/plugins/qmltooling/libqmldbg_quickprofiler$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		061D9D3ECC7DE7A26360B3BB = {
+			fileRef = "141B9EC7F0FDA475AA79E6AD";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B68B2EF69BF92DA6C9E9C476 = {
+			isa = PBXFileReference;
+			name = "qmldbg_server";
+			path = "/Users/appdev/Qt/5.10.1/ios/plugins/qmltooling/libqmldbg_server$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AA39579A72FCDA272D89D424 = {
+			fileRef = "B68B2EF69BF92DA6C9E9C476";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FB20B807EFF4CA4414F18781 = {
+			isa = PBXFileReference;
+			name = "Qt5PacketProtocol";
+			path = "/Users/appdev/Qt/5.10.1/ios/lib/libQt5PacketProtocol$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B2625750264E2EAD44B101BB = {
+			fileRef = "FB20B807EFF4CA4414F18781";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D579F7D0855E9809E14B009B = {
+			isa = PBXFileReference;
+			name = "qmldbg_tcp";
+			path = "/Users/appdev/Qt/5.10.1/ios/plugins/qmltooling/libqmldbg_tcp$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		8A943D77B841CB37FC1EE0BB = {
+			fileRef = "D579F7D0855E9809E14B009B";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0AE096696B703501789B2282 = {
+			isa = PBXFileReference;
+			name = "qgenericbearer";
+			path = "/Users/appdev/Qt/5.10.1/ios/plugins/bearer/libqgenericbearer$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		D47293A7AA7513995B5F2C42 = {
+			fileRef = "0AE096696B703501789B2282";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		5615EC5D1C8D6CAEE0C1826E = {
+			isa = PBXFileReference;
+			name = "qtquick2plugin";
+			path = "/Users/appdev/Qt/5.10.1/ios/qml/QtQuick.2/libqtquick2plugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		11D2461079446F50A4EC2FEB = {
+			fileRef = "5615EC5D1C8D6CAEE0C1826E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A33171F2F862B54BD1CC050D = {
+			isa = PBXFileReference;
+			name = "windowplugin";
+			path = "/Users/appdev/Qt/5.10.1/ios/qml/QtQuick/Window.2/libwindowplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		CAC9BC820D0473C9B13929F7 = {
+			fileRef = "A33171F2F862B54BD1CC050D";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		86F7A5E4B9ABFD9A6779A278 = {
+			isa = PBXFileReference;
+			name = "Qt5Quick";
+			path = "/Users/appdev/Qt/5.10.1/ios/lib/libQt5Quick$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		10147024C1E0CE2A6ABC95F9 = {
+			fileRef = "86F7A5E4B9ABFD9A6779A278";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		163D4324FFD13AA02DDF157B = {
+			isa = PBXFileReference;
+			name = "Qt5Qml";
+			path = "/Users/appdev/Qt/5.10.1/ios/lib/libQt5Qml$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		5ABF09F0AF7FF77B74853B3F = {
+			fileRef = "163D4324FFD13AA02DDF157B";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		71425828E7F03745FE509E81 = {
+			isa = PBXFileReference;
+			name = "Qt5Gui";
+			path = "/Users/appdev/Qt/5.10.1/ios/lib/libQt5Gui$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		1DA30C5052CB51F6B5B9F497 = {
+			fileRef = "71425828E7F03745FE509E81";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D30F9A2A3F19B91A8EC2BF21 = {
+			isa = PBXFileReference;
+			name = "qtlibpng";
+			path = "/Users/appdev/Qt/5.10.1/ios/lib/libqtlibpng$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		E1F6167ED7770EA61A8E92C9 = {
+			fileRef = "D30F9A2A3F19B91A8EC2BF21";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0CAD8C99A8E4008DF6534E85 = {
+			isa = PBXFileReference;
+			name = "qtharfbuzz";
+			path = "/Users/appdev/Qt/5.10.1/ios/lib/libqtharfbuzz$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		7D9D082032CA3B4FA9D176E3 = {
+			fileRef = "0CAD8C99A8E4008DF6534E85";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		881854C724E0A8B57B10B599 = {
+			isa = PBXFileReference;
+			name = "Qt5Network";
+			path = "/Users/appdev/Qt/5.10.1/ios/lib/libQt5Network$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		16C79166004B5593A8CA14A2 = {
+			fileRef = "881854C724E0A8B57B10B599";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		154A48C478EB61422DB45916 = {
+			isa = PBXFileReference;
+			name = "Qt5Core";
+			path = "/Users/appdev/Qt/5.10.1/ios/lib/libQt5Core$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		3093A95CDB5B296F10ACD661 = {
+			fileRef = "154A48C478EB61422DB45916";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D3D7FD410C5449DB307BB835 = {
+			isa = PBXFileReference;
+			name = "qtpcre2";
+			path = "/Users/appdev/Qt/5.10.1/ios/lib/libqtpcre2$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		5F1B7EBF528B3D45283C06F8 = {
+			fileRef = "D3D7FD410C5449DB307BB835";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AF39DD055C3EF8226FBE929D = {
+			children = (
+				"FCC237CA5AD60B9BA4447615",
+				"7EC00404ACD5AB0E97726B0E",
+				"3C44131FDCFEF4396B9EA2BA",
+				"4D765E1B1EA6C757220C63E7",
+				"6AE3EC31EE5BB1FCEE84137C",
+				"7D7B02101166B76FD2D4F8B4",
+				"3A8EF9C62A8D4790CBB89CEA",
+				"38570CF40A90A306584CE249",
+				"BAF3364AE54C838181B0F8D5",
+				"72C9D15566F1A81B2425256B",
+				"85B31DB720473DBA0657CD86",
+				"88B1FC1B5A692969C2481CD5",
+				"F5C8D2A717F4866341597018",
+				"66E6253D9FFE621474110A17",
+				"E73B37B48A46F81CFED156C7",
+				"3C67FD872EF6AA3DA59F0FDC",
+				"18B07186EFCFF46C4AC8C055",
+				"9236A66C6813326867488232",
+				"C58A577B75FA948870541063",
+				"C8C0CABA8FF844F43F4F3E25",
+				"C236E8CC9E55444B6BA95E42",
+				"9700DE8CF62019BFE61DC842",
+				"205259EEEE2BADA5E64741E3",
+				"74834A37078750EAE21469C1",
+				"BD2AF2F66D84E4DD324EF254",
+				"0E0AB8B7646850BF3D009179",
+				"40DF2EEA80C7624C9CA16470",
+				"FB35A96C4C3567DDD398D4E6",
+				"B58E8A8B71E018585BDFE76B",
+				"141B9EC7F0FDA475AA79E6AD",
+				"B68B2EF69BF92DA6C9E9C476",
+				"FB20B807EFF4CA4414F18781",
+				"D579F7D0855E9809E14B009B",
+				"0AE096696B703501789B2282",
+				"5615EC5D1C8D6CAEE0C1826E",
+				"A33171F2F862B54BD1CC050D",
+				"86F7A5E4B9ABFD9A6779A278",
+				"163D4324FFD13AA02DDF157B",
+				"71425828E7F03745FE509E81",
+				"D30F9A2A3F19B91A8EC2BF21",
+				"0CAD8C99A8E4008DF6534E85",
+				"881854C724E0A8B57B10B599",
+				"154A48C478EB61422DB45916",
+				"D3D7FD410C5449DB307BB835");
+			isa = PBXGroup;
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		D1C883685E82D5676953459A = {
+			buildActionMask = 2147483647;
+			files = (
+				"F26454630C80841CBDCFE1CA",
+				"B460F624007324313696BE86",
+				"4EB68D0C8182BCE33529C421",
+				"F8B465CE34D8DF87AAE95913",
+				"0CE02722F00CAD43741297B5",
+				"2B02D9DC58A01E45248DDBCE",
+				"61EEC397DC8556BF8C4E36A7",
+				"B3BF103B2D2E7CB8B6224D77",
+				"F603F4E7F8681F307B9A41C8",
+				"C4579F2EC185D0151B059E76",
+				"9D7C840C4E67D14050BCACC9",
+				"244297D76782116F979C4587",
+				"9CDAF59DD24F819AB910A225",
+				"62F8277249E4AE6355F3F21B",
+				"09F10F5CB1FF797C835CE4DB",
+				"A5A12D7AC509883DB5714D7B",
+				"A31CB6DF224BBACD45C844D2",
+				"274183AF5D037AED9812C6BA",
+				"E407866FE6839A787E8C00F5",
+				"00104A3BAA9845C161DF1034",
+				"BB4E4F9937D24839948EE40D",
+				"027BA5E7E9ADA5488690C0D7",
+				"15364689D2AB5A30E87A689F",
+				"BCD91DCFF0327CC2E7321EE7",
+				"509F8F5DA1619D4B633821FB",
+				"9D53C01E5650599F7EB4C3B3",
+				"B8BF709930A21551E7F3D6D6",
+				"6E29E98A5A025CA8337CE378",
+				"9317CFED0F7F07766F90A993",
+				"061D9D3ECC7DE7A26360B3BB",
+				"AA39579A72FCDA272D89D424",
+				"B2625750264E2EAD44B101BB",
+				"8A943D77B841CB37FC1EE0BB",
+				"D47293A7AA7513995B5F2C42",
+				"11D2461079446F50A4EC2FEB",
+				"CAC9BC820D0473C9B13929F7",
+				"10147024C1E0CE2A6ABC95F9",
+				"5ABF09F0AF7FF77B74853B3F",
+				"1DA30C5052CB51F6B5B9F497",
+				"E1F6167ED7770EA61A8E92C9",
+				"7D9D082032CA3B4FA9D176E3",
+				"16C79166004B5593A8CA14A2",
+				"3093A95CDB5B296F10ACD661",
+				"5F1B7EBF528B3D45283C06F8");
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Link Binary With Libraries";
+		};
+		AAF9B62B83C0071BA9B7CBB7 = {
+			isa = PBXFileReference;
+			path = "/Users/appdev/Perforce/cgehred_Applications-iMac_cgehredo_Dev_4375/build-BabyBusiness-Qt_5_10_1_for_iOS-Debug/BabyBusiness.xcodeproj/Default-568h@2x.png";
+			name = "Default-568h@2x.png";
+			sourceTree = "<absolute>";
+		};
+		A9819D2A8AB54039FFFD8036 = {
+			fileRef = "AAF9B62B83C0071BA9B7CBB7";
+			isa = PBXBuildFile;
+		};
+		F28C450F3EA12144CAF5AD69 = {
+			isa = PBXFileReference;
+			path = "/Users/appdev/Perforce/cgehred_Applications-iMac_cgehredo_Dev_4375/build-BabyBusiness-Qt_5_10_1_for_iOS-Debug/BabyBusiness.xcodeproj/LaunchScreen.xib";
+			name = "LaunchScreen.xib";
+			sourceTree = "<absolute>";
+		};
+		BD999477E9A4C5B5B026E20D = {
+			fileRef = "F28C450F3EA12144CAF5AD69";
+			isa = PBXBuildFile;
+		};
+		858FCAB0EB1F29CF8B07677C = {
+			children = (
+				"AAF9B62B83C0071BA9B7CBB7",
+				"F28C450F3EA12144CAF5AD69");
+			isa = PBXGroup;
+			name = "Bundle Data";
+			sourceTree = "<group>";
+		};
+		30414803F31797EB689AE508 = {
+			buildActionMask = 2147483647;
+			files = (
+				"A9819D2A8AB54039FFFD8036",
+				"BD999477E9A4C5B5B026E20D");
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Copy Bundle Resources";
+		};
+		99542592E9780B9225F24AA8 = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1E5C863F68386C94D8ECB6 = {
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			explicitFileType = "wrapper.application";
+			path = "BabyBusiness.app";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE0A091FDBFB3E9C31B7A1BD = {
+			children = (
+				"CC1E5C863F68386C94D8ECB6");
+			isa = PBXGroup;
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		E8C543AB96796ECAA2E65C57 = {
+			children = (
+				"2EB56BE3C2D93CDAB0C52E67",
+				"25B08E2869634E9BCBA333A2",
+				"87DF60DE337FB58864343E39",
+				"74B182DB50CB5611B5C1C297",
+				"AF39DD055C3EF8226FBE929D",
+				"858FCAB0EB1F29CF8B07677C",
+				"FE0A091FDBFB3E9C31B7A1BD");
+			isa = PBXGroup;
+			name = "BabyBusiness";
+			sourceTree = "<group>";
+		};
+		5C331BAC9911B902C0FE1920 = {
+			buildPhases = (
+				"5E618435888B9D49F8540165",
+				"7EF0942E79C014DCEC8976BC");
+			dependencies = (
+				);
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXAggregateTarget;
+			buildRules = (
+);
+			productName = "Qt Preprocess";
+			name = "Qt Preprocess";
+		};
+		55507A8E55AC0834142419A9 = {
+			isa = PBXTargetDependency;
+			target = "5C331BAC9911B902C0FE1920";
+		};
+		DB1E7682BA74083110F23F35 = {
+			buildPhases = (
+				"F7E50F631C51CD5B5DC0BC43",
+				"D1C883685E82D5676953459A",
+				"30414803F31797EB689AE508",
+				"99542592E9780B9225F24AA8");
+			dependencies = (
+				"55507A8E55AC0834142419A9");
+			productReference = "CC1E5C863F68386C94D8ECB6";
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXNativeTarget;
+			buildRules = (
+);
+			productType = "com.apple.product-type.application";
+			name = "BabyBusiness";
+			productName = "BabyBusiness";
+		};
+		3AA6C32AC930069E80220CF1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=iphoneos*]" = "arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				DEVELOPMENT_TEAM = "8AVSFD7ZED";
+				ENABLE_BITCODE = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "etcconnect.com.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "BabyBusiness";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QT_LIBRARY_SUFFIX = "_debug";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "/Users/appdev/Perforce/cgehred_Applications-iMac_cgehredo_Dev_4375/build-BabyBusiness-Qt_5_10_1_for_iOS-Debug/";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "10.0";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"../BabyBusiness",
+					".",
+					"../../../Qt/5.10.1/ios/mkspecs/common/uikit",
+					"../../../Qt/5.10.1/ios/include",
+					"../../../Qt/5.10.1/ios/include/QtQuick",
+					"../../../Qt/5.10.1/ios/include/QtGui",
+					"../../../Qt/5.10.1/ios/include/QtQml",
+					"../../../Qt/5.10.1/ios/include/QtNetwork",
+					"../../../Qt/5.10.1/ios/include/QtCore",
+					".",
+					"../../../Qt/5.10.1/ios/mkspecs/macx-ios-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/appdev/Qt/5.10.1/ios/plugins/platforms",
+					"/System/Library/Frameworks/",
+					"/Users/appdev/Qt/5.10.1/ios/lib",
+					"/Users/appdev/Qt/5.10.1/ios/plugins/imageformats",
+					"/Users/appdev/Qt/5.10.1/ios/plugins/qmltooling",
+					"/Users/appdev/Qt/5.10.1/ios/plugins/bearer",
+					"/Users/appdev/Qt/5.10.1/ios/qml/QtQuick.2",
+					"/Users/appdev/Qt/5.10.1/ios/qml/QtQuick/Window.2");
+				FRAMEWORK_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_COMPILER_SUPPORTS_SSE2",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_QML_DEBUG",
+					"-DQT_QUICK_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-g",
+					"-std=gnu++11",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_COMPILER_SUPPORTS_SSE2",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_QML_DEBUG",
+					"-DQT_QUICK_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-stdlib=libc++",
+						"-Wl,-e,_qt_main_wrapper",
+						"-Wl,-rpath,@executable_path/Frameworks",
+						"-L/Users/appdev/Qt/5.10.1/ios/plugins/platforms",
+						"-framework",
+						"UIKit",
+						"-framework",
+						"AssetsLibrary",
+						"-L/Users/appdev/Qt/5.10.1/ios/lib",
+						"-framework",
+						"MobileCoreServices",
+						"-framework",
+						"OpenGLES",
+						"-L/Users/appdev/Qt/5.10.1/ios/plugins/imageformats",
+						"-L/Users/appdev/Qt/5.10.1/ios/plugins/qmltooling",
+						"-L/Users/appdev/Qt/5.10.1/ios/plugins/bearer",
+						"-L/Users/appdev/Qt/5.10.1/ios/qml/QtQuick.2",
+						"-L/Users/appdev/Qt/5.10.1/ios/qml/QtQuick/Window.2",
+						"-lm",
+						"-lz");
+				ARCHS = "arm64 x86_64";
+			};
+			name = "Debug";
+		};
+		77418F46922677BB04ED38DD = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=iphoneos*]" = "arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				DEVELOPMENT_TEAM = "8AVSFD7ZED";
+				ENABLE_BITCODE = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "etcconnect.com.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "BabyBusiness";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QT_LIBRARY_SUFFIX = "_debug";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "BabyBusiness";
+			};
+			name = "Debug";
+		};
+		339EE1B2CC4FC24589A0EA95 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=iphoneos*]" = "arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				DEVELOPMENT_TEAM = "8AVSFD7ZED";
+				ENABLE_BITCODE = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "etcconnect.com.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "BabyBusiness";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "/Users/appdev/Perforce/cgehred_Applications-iMac_cgehredo_Dev_4375/build-BabyBusiness-Qt_5_10_1_for_iOS-Debug/";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "10.0";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"../BabyBusiness",
+					".",
+					"../../../Qt/5.10.1/ios/mkspecs/common/uikit",
+					"../../../Qt/5.10.1/ios/include",
+					"../../../Qt/5.10.1/ios/include/QtQuick",
+					"../../../Qt/5.10.1/ios/include/QtGui",
+					"../../../Qt/5.10.1/ios/include/QtQml",
+					"../../../Qt/5.10.1/ios/include/QtNetwork",
+					"../../../Qt/5.10.1/ios/include/QtCore",
+					".",
+					"../../../Qt/5.10.1/ios/mkspecs/macx-ios-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/appdev/Qt/5.10.1/ios/plugins/platforms",
+					"/System/Library/Frameworks/",
+					"/Users/appdev/Qt/5.10.1/ios/lib",
+					"/Users/appdev/Qt/5.10.1/ios/plugins/imageformats",
+					"/Users/appdev/Qt/5.10.1/ios/plugins/qmltooling",
+					"/Users/appdev/Qt/5.10.1/ios/plugins/bearer",
+					"/Users/appdev/Qt/5.10.1/ios/qml/QtQuick.2",
+					"/Users/appdev/Qt/5.10.1/ios/qml/QtQuick/Window.2");
+				FRAMEWORK_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_COMPILER_SUPPORTS_SSE2",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_QML_DEBUG",
+					"-DQT_QUICK_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-g",
+					"-std=gnu++11",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_COMPILER_SUPPORTS_SSE2",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_QML_DEBUG",
+					"-DQT_QUICK_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-stdlib=libc++",
+						"-Wl,-e,_qt_main_wrapper",
+						"-Wl,-rpath,@executable_path/Frameworks",
+						"-L/Users/appdev/Qt/5.10.1/ios/plugins/platforms",
+						"-framework",
+						"UIKit",
+						"-framework",
+						"AssetsLibrary",
+						"-L/Users/appdev/Qt/5.10.1/ios/lib",
+						"-framework",
+						"MobileCoreServices",
+						"-framework",
+						"OpenGLES",
+						"-L/Users/appdev/Qt/5.10.1/ios/plugins/imageformats",
+						"-L/Users/appdev/Qt/5.10.1/ios/plugins/qmltooling",
+						"-L/Users/appdev/Qt/5.10.1/ios/plugins/bearer",
+						"-L/Users/appdev/Qt/5.10.1/ios/qml/QtQuick.2",
+						"-L/Users/appdev/Qt/5.10.1/ios/qml/QtQuick/Window.2",
+						"-lm",
+						"-lz");
+				ARCHS = "arm64 x86_64";
+			};
+			name = "Release";
+		};
+		6666AA5E688052234F6758D8 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=iphoneos*]" = "arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				DEVELOPMENT_TEAM = "8AVSFD7ZED";
+				ENABLE_BITCODE = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "etcconnect.com.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "BabyBusiness";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "BabyBusiness";
+			};
+			name = "Release";
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"3AA6C32AC930069E80220CF1",
+				"339EE1B2CC4FC24589A0EA95");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug";
+		};
+		6CC3B5D2136C7CD6A5CF5A59 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"77418F46922677BB04ED38DD",
+				"6666AA5E688052234F6758D8");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug";
+		};
+		6DB9C3763D02B1415CD9D565 = {
+			hasScannedForEncodings = 1;
+			compatibilityVersion = "Xcode 3.2";
+			isa = PBXProject;
+			mainGroup = "E8C543AB96796ECAA2E65C57";
+			productRefGroup = "FE0A091FDBFB3E9C31B7A1BD";
+			buildConfigurationList = "DAC4C1AA5EDEA1C85E9CA5E6";
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"DB1E7682BA74083110F23F35",
+				"5C331BAC9911B902C0FE1920");
+			attributes = {
+				TargetAttributes = {
+				};
+			};
+		};
+	};
+	rootObject = "6DB9C3763D02B1415CD9D565";
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>X485E8B9XG.etcconnect.com.BabyBusiness</string>
+	<key>com.apple.developer.team-identifier</key>
+	<string>8AVSFD7ZED</string>
+	<key>get-task-allow</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>X485E8B9XG.etcconnect.com.BabyBusiness</string>
+	</array>
+</dict>
+</plist>
